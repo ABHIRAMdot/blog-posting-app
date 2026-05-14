@@ -1,0 +1,40 @@
+.blog-form-page {
+    padding: 40px 0;
+  }
+  
+  .blog-form-card {
+    max-width: 800px;
+  
+    margin: auto;
+  
+    background-color: var(--surface-color);
+  
+    padding: 40px;
+  
+    border-radius: var(--border-radius);
+  
+    box-shadow: var(--shadow);
+  }
+  
+  .blog-form-card h1 {
+    margin-bottom: 10px;
+  }
+  
+  .blog-form-subtitle {
+    color: var(--light-text);
+  
+    margin-bottom: 30px;
+  }
+  
+  .blog-form {
+    display: flex;
+    flex-direction: column;
+  
+    gap: 20px;
+  }
+  
+  .blog-error {
+    margin-top: 20px;
+  
+    color: var(--danger-color);
+  }

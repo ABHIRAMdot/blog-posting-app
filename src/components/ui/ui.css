@@ -1,0 +1,59 @@
+.ui-input,
+.ui-textarea {
+  width: 100%;
+
+  padding: 14px;
+
+  border: 1px solid var(--border-color);
+
+  border-radius: var(--border-radius);
+
+  font-size: 1rem;
+
+  transition: var(--transition);
+}
+
+.ui-input:focus,
+.ui-textarea:focus {
+  border-color: var(--primary-color);
+}
+
+.ui-textarea {
+  min-height: 180px;
+
+  resize: vertical;
+}
+
+.ui-button {
+  background-color: var(--primary-color);
+
+  color: white;
+
+  padding: 12px 18px;
+
+  border-radius: var(--border-radius);
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  transition: var(--transition);
+}
+
+.ui-button:hover {
+  background-color: var(--primary-hover);
+}
+
+.ui-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.ui-loader {
+  text-align: center;
+
+  padding: 40px;
+
+  font-size: 1.2rem;
+
+  color: var(--light-text);
+}

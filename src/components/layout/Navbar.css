@@ -1,0 +1,59 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+    background-color: white;
+  
+    border-bottom: 1px solid var(--border-color);
+  
+    z-index: 1000;
+  }
+  
+  .navbar-content {
+    height: 70px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    font-weight: 500;
+    transition: var(--transition);
+  }
+  
+  .nav-links a:hover {
+    color: var(--primary-color);
+  }
+  
+  .logout-btn {
+    background-color: var(--danger-color);
+    color: white;
+  
+    padding: 10px 16px;
+  
+    border-radius: var(--border-radius);
+  
+    transition: var(--transition);
+  }
+  
+  .logout-btn:hover {
+    opacity: 0.9;
+  }
+  .user-email {
+    font-weight: 500;
+    color: green;
+  }
